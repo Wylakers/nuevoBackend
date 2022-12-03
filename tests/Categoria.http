@@ -1,0 +1,38 @@
+POST https://nuevobackend-production.up.railway.app/categoria
+Content-Type: application/json
+
+{
+   "Nombre":"Procesador",
+   "Descripcion":"Unidad de procesamiento encargada de interpretar las instrucciones de un hardware"
+}
+
+############
+
+
+POST http://localhost:3001/courses
+Content-Type: application/json
+
+{
+    "name": "Estructura de Datos",
+    "level": 5,
+    "idProfessor": 1
+}
+
+#########
+GET http://localhost:3001/courses
+#########
+GET http://localhost:3001/courses/all
+########
+GET http://localhost:3001/courses/2
+###########
+PUT http://localhost:3001/courses
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Web Programming",
+    "level": 6,
+    "idProfessor": 1
+}
+#######
+DELETE http://localhost:3001/courses/1
