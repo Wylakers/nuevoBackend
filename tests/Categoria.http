@@ -134,12 +134,6 @@ Content-Type: application/json
 }
 
 
-
-
-
-
-
-
 ############
 POST http://localhost:3001/courses
 Content-Type: application/json
